@@ -1,0 +1,16 @@
+/* Reset do CSS */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, p, h6 {
+    text-align: center;
+}
+
+header {
+    background-color: rgb(196, 33, 33);
+    color: aliceblue;
+    padding: 27px
+}
