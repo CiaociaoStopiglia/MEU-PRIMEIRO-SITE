@@ -32,6 +32,8 @@ about-section {
     margin: 0 auto;
     padding: 40px;
     border-radius:20px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 main {
@@ -57,4 +59,25 @@ main {
     font-size: 15px;
     background-color: rgb(255, 255, 255); 
     text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 12px
+}
+
+li {
+    background-color: rgb(221, 221, 221);
+    padding: 12px;
+    border-left: 4px solid rgb(182, 35, 35);
+    font-size: 14px;
+    min-width: 250px
+}
+
+li:hover {
+    background-color: rgb(224, 224, 224);
+    transform: translateX(5px);
+    transition: all 0.3s ease;
 }
